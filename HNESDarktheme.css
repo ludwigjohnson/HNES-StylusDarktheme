@@ -32,10 +32,6 @@ textarea {
     border: none;
 }
 
-#more .morelink {
-    text-align: center !important;
-}
-
 #header,
 .nav-drop-down {
     background-color: #2f2f2f !important;
@@ -43,14 +39,6 @@ textarea {
 }
 
 @-moz-document url-prefix("https://news.ycombinator.com/item") {
-body #hnes-comments .hnes-comment.level-odd #hnes-comments.nolevels .hnes-comment {
-    background-color: #cc0808 !important;
-}
-
-#18895029 {
-    background-color: #2500ff !important;
-}
-
 .hnes-comment.level-odd,
 #hnes-comments.nolevels .hnes-comment {
     background-color: #393939 !important;
