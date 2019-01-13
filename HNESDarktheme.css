@@ -14,6 +14,14 @@ tr {
     background-color: #2f2f2f !important;
 }
 
+#index-body #content tbody tr.on_story {
+    background-color: #151515 !important;
+}
+
+#index-body #content tbody tr:nth-child(2n).on_story {
+    background-color: #151515 !important;
+}
+
 #index-body #content tbody tr {
     background-color: #393939 !important;
 }
@@ -48,22 +56,22 @@ textarea {
     background-color: #2f2f2f !important;
 }
 
+.text {
+    color: #fff;
+}
+
+#content .item-header tr:nth-child(3) td {
+    color: #fff !important;
+}
+
 form textarea {
     background-color: #2f2f2f !important;
     color: #fff;
 }
 
-.hnes-new-parent {
-    border-left: #f60;
-}
-
 body table,
 td {
     background-color: #2f2f2f !important;
-}
-
-.self-post-text {
-    background-color: #fff !important;
 }
 }
 
